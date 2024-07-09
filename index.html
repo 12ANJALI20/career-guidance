@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase Configuration -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDjfK3S2157JWadNTqCU_dyHsTzD8qKgLY",
+            authDomain: "carrier-guidance-d75f5.firebaseapp.com",
+            projectId: "carrier-guidance-d75f5",
+            storageBucket: "carrier-guidance-d75f5.appspot.com",
+            messagingSenderId: "373785769779",
+            appId: "1:1:373785769779:web:463ed57a041646ace97046"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Career Guidance App</h1>
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <input type="anjaligupta123001@gmail.com" id="anjaligupta123001@gmail.com" placeholder="anjaligupta123001@gmail.com">
+            <input type="Aj@123456" id="Aj@123456" placeholder="Aj@123456">
+            <button onclick="signUp()">Sign Up</button>
+        </div>
+        <div class="form-container">
+            <h2>Login</h2>
+            <input type="anjaligupta123001@gmail.com" id="anjaligupta123001@gmail.com" placeholder="anjaligupta123001@gmail.com">
+            <input type="Aj@123456" id="Aj@123456" placeholder="Aj@123456">
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
